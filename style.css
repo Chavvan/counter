@@ -1,0 +1,64 @@
+
+.main-countainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start-box {
+  margin: 20px 0;
+}
+
+.start-box #input-counter {
+  padding: 7px;
+  width: 300px;
+  outline-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.start-box #start-counter {
+  border: none;
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 2px;
+}
+
+#main-progress {
+  display: none;
+}
+
+#error-message {
+  font-size: 0.9em;
+  color: #e74c3c;
+  display: none;
+}
+
+#error-message.active {
+  display: block;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: .9em;
+}
+
+.message .loading {
+  color: #e74c3c;
+  display: none;
+}
+
+.message .success {
+  color: #27ae60;
+  display: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="progress-circle.css">
+    <title>Counter</title>
+</head>
+
+<body>
+    <div class="main-countainer">
+        <div class="start-box">
+            <input type="text" id="input-counter" placeholder="Enter your desired time in seconds">
+            <button id="start-counter">Start</button>
+        </div>
+        <div id="error-message" class="active"></div>
+        <div class="progress-circle progress-100" id="main-progress"><span></span></div>
+        <div class="message">
+            <span class="loading">In progress...</span>
+            <span class="success">Completed</span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
